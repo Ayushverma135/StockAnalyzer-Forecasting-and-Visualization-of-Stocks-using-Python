@@ -1,5 +1,5 @@
 
-# Stock Prediction Web Application using Dash and Machine Learning
+# StockAnalyzer: Forecasting-and-Visualization-of-Stocks-using-Python
 
 This project aims to provide a simple yet effective tool for stock market investors to visualize company stock data and make predictions based on machine learning models. The web application is built using the Dash framework, a Python library for building web applications with interactive user interfaces.
 
