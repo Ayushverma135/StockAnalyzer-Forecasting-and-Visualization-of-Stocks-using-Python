@@ -1,0 +1,136 @@
+/* General styles */
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.nav .start {
+    font-family: Merriweather;
+    letter-spacing: 125%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav .stock-input {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.nav .stock-input input {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.nav .stock-input button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #E4002B;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.nav .stock-input button:hover {
+    background-color: #BA0C2F;
+}
+
+.nav .date-input {
+    height: 40px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+.nav .selectors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav .selectors button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #E4002B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav .selectors button:hover {
+    background-color: #BA0C2F;
+}
+
+.nav .selectors input {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.content .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+  
+.content .logo {
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+  
+.content .company-name {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+  
+.content #description {
+   width: 80%;
+   height: 10%;
+   padding: 20px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: Georgia;
+   line-height: 150%;
+}
+  
+#graphs-content, #main-content, #forecast-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+  
+.content {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+ 
